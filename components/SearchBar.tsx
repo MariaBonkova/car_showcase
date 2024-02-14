@@ -32,7 +32,8 @@ const SearchBar = ({setManufacturer, setModel}) => {
 
     }
 
-     return (
+
+    return (
         <form className="searchbar" onSubmit={handleSearch}>
             <div className="searchbar__item">
                 <SearchManufacturer
